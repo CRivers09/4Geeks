@@ -9,4 +9,4 @@ window.onLoad = ()=>{
               verb[Math.floor(Math.random() * verb.length)] +
               noun_object[Math.floor(Math.random() * noun_object.length)] + ".";
     document.getElementById("excuse").innerHTML = str;
-}
+};
