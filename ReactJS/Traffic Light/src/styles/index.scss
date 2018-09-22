@@ -2,7 +2,7 @@
 
 .red, .yellow, .green {
     background-color: red;
-    width: 150px; height: 120px;
+    width: 150px; height: 180px;
     border-radius: 50%;
     &.selected { box-shadow: 0px 0px 50px #ffffff; }
 }
