@@ -45,8 +45,7 @@ export class TrafficLight extends React.Component{
     }
     
     checkSignal(bool) {
-        if(bool) return " selected";
-        return "";
+        return bool ? " selected" : "";
     }    
     
     render() {
