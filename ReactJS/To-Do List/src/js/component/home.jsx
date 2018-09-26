@@ -27,9 +27,7 @@ export class Todo extends React.Component{
     
     deleteNote(i) {
         let notepad = this.state;
-        notepad.notes = notepad.notes.filter((value, index) => {
-            return index != i;
-        });
+        notepad.notes.splice(i,1);
         this.setState(notepad);
     }
     
